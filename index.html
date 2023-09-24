@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+
+<style>
+
+
+       p,  
+        h3 {
+            padding: 5px;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 2, 1fr;
+            grid-template-rows: 2, 1vh;
+            grid-template-areas: 
+            "picture name"
+            "information information ";
+
+            gap: 5px;
+
+        }
+        .picture {
+            background-color:ghostwhite;
+        }
+        .name {
+            background-color:floralwhite;
+        }
+
+        .information {
+            background-color:aqua;
+        }
+
+
+
+
+
+
+
+        .picture {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        .name {
+            grid-column: 2/2;
+            grid-row: 1/2;
+
+                }       
+         .information {
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+
+       </style>
+</head>
+<body>
+    <div class="container">
+        <div class="name">
+            <center><h2>Hello my name is Vaughn dominique Velasco </h2></center>
+        </div>
+
+
+        <div class="picture">
+            <img src= "von.jpeg" width="500" height="300">
+
+        </div>
+        <div class="information">
+            <center><h3>I am Vaughn Dominique S. Velasco, hailing from Linaon, Cauayan, Negros Occidental. At 21 years of age, I hold the esteemed position of the first-born son to Mr. and Mrs. Velasco. Presently, I am diligently pursuing my academic endeavors at Central Philippine State University - Kabankalan Main Campus, dedicated to the pursuit of knowledge in the field of Bachelor of Science in Information Technology.
+                I chose the Bachelor of Science in Information Technology due to its dynamic nature and the vast opportunities it offers in the digital era. I am driven by the desire to be at the forefront of technological advancements, contribute to innovative solutions, and create a meaningful impact. My passion for problem-solving, logical thinking, and interest in computer systems align perfectly with the fundamental aspects of BSIT, motivating me to excel in this field.
+                 </h3></center>
+    </div>
+     </div>
+    
+</body>
+</html>
